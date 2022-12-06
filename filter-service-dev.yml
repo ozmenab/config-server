@@ -20,7 +20,7 @@ spring:
     consumer:
       auto-offset-reset: earliest
       bootstrap-servers: localhost:9092
-      group-id: filter
+      group-id: inventory2
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       properties:
         spring:
