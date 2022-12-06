@@ -13,8 +13,8 @@ spring:
     application:
         name: rental-service
     datasource:
-        password: torukobyte123
-        url: jdbc:postgresql://localhost:5432/rentacarRentaldb
+        password: 1234
+        url: jdbc:postgresql://localhost:5432/rentacarrentaldb
         username: postgres
     jpa:
         hibernate:
@@ -33,4 +33,4 @@ spring:
             key-serializer: org.apache.kafka.common.serialization.StringSerializer
             value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
         topic:
-            name: tbyte
+            name: rental_topics2
