@@ -13,8 +13,8 @@ spring:
     application:
         name: invoice-service
     datasource:
-        password: torukobyte123
-        url: jdbc:postgresql://localhost:5432/rentacarInvoicedb
+        password: 1234
+        url: jdbc:postgresql://localhost:5432/rentacarinvoicedb
         username: postgres
     jpa:
         hibernate:
@@ -40,4 +40,4 @@ spring:
                             packages: '*'
             value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
         topic:
-            name: tbyte
+            name: rental_topics2
