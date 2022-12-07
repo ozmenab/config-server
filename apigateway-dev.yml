@@ -19,3 +19,17 @@ spring:
                     lower-case-service-id: true
     zipkin:
         base-url: http://localhost:9411
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  metrics:
+    export:
+      prometheus:
+        enabled: true
