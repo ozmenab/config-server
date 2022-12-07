@@ -45,3 +45,17 @@ spring:
             value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
         topic:
             name: rental_topics
+management:
+    endpoint:
+        metrics:
+            enabled: true
+        prometheus:
+            enabled: true
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+    metrics:
+        export:
+            prometheus:
+                enabled: true

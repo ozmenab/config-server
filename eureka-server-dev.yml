@@ -10,3 +10,18 @@ server:
 spring:
     application:
         name: eureka-server
+
+management:
+    endpoint:
+        metrics:
+            enabled: true
+        prometheus:
+            enabled: true
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+    metrics:
+        export:
+            prometheus:
+                enabled: true
