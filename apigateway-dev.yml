@@ -3,7 +3,7 @@ eureka:
         fetch-registry: true
         register-with-eureka: true
         service-url:
-            defaultZone: http://discovery-server/eureka/
+            defaultZone: http://discovery-server:9000/eureka/
     instance:
         prefer-ip-address: true
 server:
