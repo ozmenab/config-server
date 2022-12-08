@@ -44,7 +44,7 @@ spring:
             key-serializer: org.apache.kafka.common.serialization.StringSerializer
             value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
         topic:
-            name: rental1
+            name: rental2
 
 management:
   endpoint:
