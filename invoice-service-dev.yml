@@ -40,7 +40,7 @@ spring:
                             packages: '*'
             value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
         topic:
-            name: rental2
+            name: rental3
 
 management:
   endpoint:
